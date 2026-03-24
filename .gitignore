@@ -1,0 +1,19 @@
+# Backend environments
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Database and media
+neuroadvisor.db
+statics/uploads/*
+!statics/uploads/.gitkeep
+
+# Frontend environments
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+
+# OS specific
+.DS_Store
+Thumbs.db
